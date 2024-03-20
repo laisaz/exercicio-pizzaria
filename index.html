@@ -11,30 +11,18 @@
 </head>
 
 <body>
-    <div class="bg-danger" style="min-height: 10vh;">
-        <div class="container bg-danger">
-            <div class="row bg-danger" style="color: rgb(243, 241, 241);">
-                <div class="col-6" style="font-size: 50px; font-family:'Times New Roman', Times, serif;">
-                    Pizzaria
-                </div>
-                <div class="col" style="padding-top:22px;">
-                </div>
-                <div class="col">
-                </div>
-                <div class="col" style="padding-top:22px;">
-                    <a>Home</a>
-                </div>
-                <div class="col" style="padding-top:22px;">
-                    <a>Cardápio</a>
-                </div>
-                <div class="col" style="padding-top:22px;">
-                    <a>Contato</a>
-                </div>
-            </div>
+    <header>
+        <div class="container d-flex justify-content-between p-2">
+            <p id="p1">Pizzaria</p>
+            <nav>
+                <ul class="list-inline text-white mt-3">
+                    <li class="list-inline-item">Home</li>
+                    <li class="list-inline-item">Cardápio</li>
+                    <li class="list-inline-item">Contato</li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    </div>
-    <div>
+    </header>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2" style="background-color: rgb(224, 224, 224);">
@@ -76,6 +64,7 @@
                         lorem tortor. Suspendisse tempus nibh quam, vel accumsan est semper nec. Proin imperdiet felis
                         et nunc tempor placerat. Morbi aliquam turpis id erat eleifend, at facilisis nisl tincidunt.
                         Integer accumsan ante in lorem dictum facilisis. Donec suscipit convallis aliquam.</p>
+                        
                         <p id="texto2">Ut blandit nec tellus eget commodo. Fusce facilisis porttitor neque, at dapibus ante euismod
                             eget. Etiam neque velit, luctus in nunc vitae, sollicitudin efficitur sem. Aliquam accumsan
                             iaculis rhoncus. Nunc cursus pellentesque turpis at viverra. Mauris finibus, nunc vel rutrum
@@ -134,9 +123,7 @@
             </div>
             <div class="container text-center bg-dark" style="color: rgb(255, 255, 255);">
                 <div class="row bg-dark">
-                    <div><footer>
-                        &COPY; Todos os direitos reservados.
-                    </footer></div>
+                    <div><footer><p class="text-center">Desenvolvido por Laisa Alvarega - &copy; Todos os direitos reservados</p></footer></div>
                 </div>
             </div>
         </div>
